@@ -1,0 +1,26 @@
+div {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    width: auto;
+    height: auto;
+    background-color: honeydew;
+}
+
+h1 {
+    color: firebrick;
+    text-align: center;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 15%;
+}
+
+th {
+    background-color: darkgray;
+}
+
+th, td {
+    border: 1px solid black;
+}
