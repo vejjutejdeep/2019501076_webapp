@@ -1,0 +1,21 @@
+.reference{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 5px;
+}
+#content{
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 5px;
+}
+a::hover{
+    color: green;
+    font-weight: bold;
+}
+
+ul{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+}
