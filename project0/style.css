@@ -40,7 +40,7 @@ th, td {
 @media  (min-width :500px) {
 	h1::before{
 		content: “welcome to my page”
-}	
+    }	
 }
 @media(max-width: 499px) {
 	h1::after{
