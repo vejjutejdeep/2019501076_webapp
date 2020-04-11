@@ -1,0 +1,25 @@
+$color: blue;
+div{
+    p{
+        color: $color;
+    }
+    ul{
+        color: $color;
+    }
+}
+
+%message{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 20px;
+    padding: 5px;
+}
+.goals{
+    @extend %message;
+    color: $color;
+}
+
+.motto{
+    @extend %message;
+    color: darkviolet;
+}

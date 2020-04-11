@@ -1,0 +1,23 @@
+div p {
+  color: blue;
+}
+
+div ul {
+  color: blue;
+}
+
+.goals, .motto {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.goals {
+  color: blue;
+}
+
+.motto {
+  color: darkviolet;
+}
+/*# sourceMappingURL=stylegenric.css.map */
