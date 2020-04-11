@@ -1,5 +1,5 @@
 .reference{
-    background-color: cadetblue;
+    background-color: honeydew;
     font-style: italic;
     margin: 10px;
     padding: 5px;
@@ -9,8 +9,8 @@
     font-size: medium;
     font-style: italic;
 }
-a::hover{
-    color: green;
+a:hover{
+    color: white;
     font-weight: bold;
     font-style: italic;
 }
@@ -29,6 +29,8 @@ table {
     width: 30%;
 }
 
+
+
 th {
     background-color: darkgray;
 }
@@ -37,14 +39,8 @@ th, td {
     border: 1px solid black;
 }
 
-@media  (min-width :500px) {
-	h1::before{
-		content: “welcome to my page”
-    }	
+@media screen and (max-width: 600px) {
+    body {
+      background-color: bisque;
+    }
 }
-@media(max-width: 499px) {
-	h1::after{
-		content:”welcome”
-	}	
-}
-
